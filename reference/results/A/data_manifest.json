@@ -1,0 +1,74 @@
+{
+  "0": {
+    "design_hashes": [
+      "98c3b34271907c4c16f3aa91b4aa4c3667f2d62bd007ce7cbe5c249f618c80ff",
+      "478b802998e904ee730f474a90846738152283e1fafaaef2b500d71065b28c41",
+      "c4a965f7321f9444ccf7cefd949a8e1929a9354f5e6ea1d43479a572e1d5b9e3"
+    ],
+    "calibration_hashes": [
+      "57ecde308954bc9d4e408c81ee475165c349dabb85a3ec8678bdd3e3f4eea588",
+      "8a101a2ec2bbfa219a711772758c759eba421e5000574a302bb10865dec37e4d",
+      "7be3410a9e865ce3d8df8180da8c096063d0895dd373615ba0901a6a8fb7e2dd"
+    ],
+    "test_hashes": [
+      "48218427764f88eb7b650f13fd4a49cfccb631d4e0dc558f768647c6a8528c40",
+      "b9cf289aa30cfb0a3744ebdcc89a07ddee0aed838b01ef23c3f12bb34c0caae1",
+      "42651d49c9974feb53643de6813a46f15b34a07d75fdae7a77c0ceecda128b24"
+    ],
+    "mission_seed": 5100
+  },
+  "30000": {
+    "design_hashes": [
+      "9d69881099bc1dc9e2a2ffaf550a948f36c4a8ae7305bf85159ea87b32ee957e",
+      "bd2adf148a24831db9acd5edd801379b25dca9c04df7c1a0b8ce685c307a6d74",
+      "3f4665160ed569158570b8460e71689b9c5bef0def1dfd358c11aba5295f56af"
+    ],
+    "calibration_hashes": [
+      "fdb267288eceb0cc70183749aac237c1558feef50cbd4c633b313af34e3f2168",
+      "8487aa9330b991c8220b647ca4f996cc2de1cd12c3135292a9768618b8e1e0cf",
+      "00849d2c61c0984c1c8d762b53e37a97165ab8b1cfcf2f11de485760dfc87800"
+    ],
+    "test_hashes": [
+      "80c8e44abfe89a041c18475ad4265a77415615c3593794cf9fb9c4e567dd173b",
+      "2ce53dce0a06c33aa995bf2502d172ca458b4d71cd87ae63f63cb2709882ff0e",
+      "9778e22cc87cb37257770683a7ffbfcae1b52be05d9946aa86b7e3ced6ef654d"
+    ],
+    "mission_seed": 35100
+  },
+  "40000": {
+    "design_hashes": [
+      "87ce84331f4fb26b2932e4c650e2aae313600eea8a42609c885ae0892d5b8d1d",
+      "6a0faef2c8dcec7b180c8920cf4d577af92505e59c5d0f53b0f49c881dcb1234",
+      "13ef01e2c564b66bcf5876bbacda47eec8343e2b34d4274f597b1ca2d950afa7"
+    ],
+    "calibration_hashes": [
+      "e234d89a2dba6b2e909389edcc40d362f6a5e973f84491ec80698755906015c4",
+      "862c25f06ae220d169b0a1319bbe158255f49cdc7939ea65067573bf87942274",
+      "70454db8df293eb0a2be67ecbe1be4d9cb6c0815a41cfd21b4b53804cadc57cd"
+    ],
+    "test_hashes": [
+      "7be341f29f4a95dd920513e6edcb95023e5ee42e92456584cdb34ecb16d89775",
+      "b460da6e6d7eb7d7438dda2725f4dfce6a845ab633ac76d1df81ae4d4086bda8",
+      "eceabc411922ca07d0ab81c0d1882bb76c58a0c0f87b7d7fc7d4b41de991e2e9"
+    ],
+    "mission_seed": 45100
+  },
+  "50000": {
+    "design_hashes": [
+      "83ac4b5a81ad8b84b3b71b29026650b78917338f31c17c1423d5c0dae46f82d3",
+      "dd8a45885cc617e71114627de22ff2e955c80a7023ba9ef2d143b9515b5b0db0",
+      "d8d9b0c4dc82b14ffb259c43371f91f2dfe464e820fb89b58b873e76e8e8a2d8"
+    ],
+    "calibration_hashes": [
+      "3d1954dd67cfc99ac41fa201f2d73528f29f8dc574681b9240a25b07f479d156",
+      "356cff7b442e8ec51f1883ce316184265dc200bb89d8b012af1174a67344c37c",
+      "1847fc2c3a5de866511ef4dc5f705ad87c10d56e322aadb94cb4b72055b13070"
+    ],
+    "test_hashes": [
+      "d9cd5010987549988502ff3b90d3b49bffc035fc7e57f46d7f4a0307ab8db0e9",
+      "bccf526c5a65a2d6ff1d8fffbd4ffe3c6c6709dbfc18caa9a60f5535a3441544",
+      "c13cf220a2e6885f3e30daee1ae4edeaf96a83fd4327a622bc115ab79ad8163e"
+    ],
+    "mission_seed": 55100
+  }
+}

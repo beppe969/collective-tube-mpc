@@ -1,0 +1,62 @@
+{
+  "method": "bonferroni",
+  "missions": 120,
+  "T": 22,
+  "epsilon": 0.1,
+  "reserve_enforced": true,
+  "admitted_missions": 120,
+  "completed_missions": 120,
+  "steps": 2640,
+  "budget_exhaustions": 0,
+  "budget_rejections": 0,
+  "state_rejections": 0,
+  "cost_mean": 25.886866629973383,
+  "horizon_escape_pct": 0.0,
+  "first_escape_count": 0,
+  "state_violation_count": 0,
+  "input_violation_count": 0,
+  "reset_failure_count": 0,
+  "backup_steps": 0,
+  "nominal_failure_count": 0,
+  "risk_spent_min": 0.07587567338129265,
+  "risk_spent_max": 0.07587567338129265,
+  "budget_final_min": 0.02412432661870735,
+  "state_tightening_pct": 7.013148437380814,
+  "input_tightening_pct": 35.49730842593586,
+  "solve_median_ms": 1.0507629999949586,
+  "accepted_optimizer_statuses": {
+    "0": 2640
+  },
+  "max_qp_constraint_violation": 6.645572980801262e-12,
+  "test_rates": [
+    1.25e-05,
+    3.75e-05,
+    0.0
+  ],
+  "worst_context_test_pct": 0.00375,
+  "audit": {
+    "terminal_coordinate_matrix": [
+      [
+        0.0,
+        1.2863948520890354
+      ],
+      [
+        -1.9973027571107334,
+        -0.9784554999095469
+      ]
+    ],
+    "terminal_radius": 0.3658218583358812,
+    "terminal_contraction_rows": [
+      0.7520453415745985,
+      0.7520453415745983
+    ],
+    "terminal_invariance_slack_min": 0.08649345736573183,
+    "terminal_state_slack_min": 3.1934968913823503,
+    "terminal_input_slack_min": 0.3176843299338574,
+    "cross_section_slack_min": -5.551115123125783e-17,
+    "failed_scalar_cross_section_inequalities": 0,
+    "edge_pairs": 9,
+    "verified_edge_pairs": 9,
+    "all_terminal_conditions_checked": true
+  }
+}

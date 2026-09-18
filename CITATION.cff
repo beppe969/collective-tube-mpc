@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using these experiments. Update its publication metadata when a final version is available."
+type: software
+title: "Contextual Collective-Tube MPC: Numerical Reproducibility Package"
+authors:
+  - family-names: Calafiore
+    given-names: Giuseppe C.
+    affiliation: "Politecnico di Torino"
+version: 1.0.0
+license: MIT
+abstract: "Reproducible numerical experiments for contextual collective-tube model predictive control with finite-sample safety certificates."
+keywords:
+  - model predictive control
+  - finite-sample calibration
+  - stochastic control
+  - reproducible research
+preferred-citation:
+  type: unpublished
+  title: "Contextual Collective-Tube Model Predictive Control with Finite-Sample Safety Certificates"
+  authors:
+    - family-names: Calafiore
+      given-names: Giuseppe C.
+  year: 2026
+  notes: "Current manuscript. Publication details and persistent identifiers should be added when available."

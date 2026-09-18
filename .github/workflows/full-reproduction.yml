@@ -1,0 +1,37 @@
+name: Full paper reproduction
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13.5'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: python -m pip install -r requirements.txt
+      - name: Run every reported experiment, generate assets, and compare to the archive
+        run: python reproduce.py run --study all --output runs/full
+      - name: Save full results and validation
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: full-paper-reproduction
+          path: runs/full/
+          if-no-files-found: warn
+          retention-days: 30

@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "paper_reproduction": false,
+  "description": "Full 1800/50000 design/calibration sizes; two missions of four steps per plant. No paper-performance claim.",
+  "elapsed_seconds": 0.4853260869999758,
+  "results": [
+    {
+      "benchmark": "A",
+      "method": "collective_compatible",
+      "missions": 2,
+      "T": 4,
+      "epsilon": 0.1,
+      "reserve_enforced": true,
+      "admitted_missions": 2,
+      "completed_missions": 2,
+      "steps": 8,
+      "budget_exhaustions": 0,
+      "budget_rejections": 0,
+      "state_rejections": 0,
+      "cost_mean": 16.189008584645624,
+      "horizon_escape_pct": 0.0,
+      "first_escape_count": 0,
+      "state_violation_count": 0,
+      "input_violation_count": 0,
+      "reset_failure_count": 0,
+      "backup_steps": 0,
+      "nominal_failure_count": 0,
+      "risk_spent_min": 0.015975498073546163,
+      "risk_spent_max": 0.015975498073546163,
+      "budget_final_min": 0.08402450192645385,
+      "state_tightening_pct": 5.04670444535701,
+      "input_tightening_pct": 25.51124446039954,
+      "solve_median_ms": 0.8838324999942415,
+      "accepted_optimizer_statuses": {
+        "0": 8
+      },
+      "max_qp_constraint_violation": 1.878941446875615e-12
+    },
+    {
+      "benchmark": "B",
+      "method": "collective_compatible",
+      "missions": 2,
+      "T": 4,
+      "epsilon": 0.1,
+      "reserve_enforced": true,
+      "admitted_missions": 2,
+      "completed_missions": 2,
+      "steps": 8,
+      "budget_exhaustions": 0,
+      "budget_rejections": 0,
+      "state_rejections": 0,
+      "cost_mean": 0.21799509368291184,
+      "horizon_escape_pct": 0.0,
+      "first_escape_count": 0,
+      "state_violation_count": 0,
+      "input_violation_count": 0,
+      "reset_failure_count": 0,
+      "backup_steps": 0,
+      "nominal_failure_count": 0,
+      "risk_spent_min": 0.01599040698005101,
+      "risk_spent_max": 0.01599040698005101,
+      "budget_final_min": 0.084009593019949,
+      "state_tightening_pct": 12.17366393040419,
+      "input_tightening_pct": 28.88956259373267,
+      "solve_median_ms": 0.5917490000229009,
+      "accepted_optimizer_statuses": {
+        "0": 8
+      },
+      "max_qp_constraint_violation": 0.0
+    }
+  ]
+}

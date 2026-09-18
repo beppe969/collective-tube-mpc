@@ -1,0 +1,27 @@
+test_budget_exhaustion_and_preflight_are_different (test_reproduction.GeometricAndOperationalChecks.test_budget_exhaustion_and_preflight_are_different) ... ok
+test_common_scaling_preserves_all_inclusions (test_reproduction.GeometricAndOperationalChecks.test_common_scaling_preserves_all_inclusions) ... ok
+test_contextual_reserve_recursion (test_reproduction.GeometricAndOperationalChecks.test_contextual_reserve_recursion) ... ok
+test_largest_shift_is_sample_rejected (test_reproduction.GeometricAndOperationalChecks.test_largest_shift_is_sample_rejected) ... ok
+test_noedge_diagnostic_is_retained (test_reproduction.GeometricAndOperationalChecks.test_noedge_diagnostic_is_retained) ... ok
+test_origin_QP_and_infeasible_reset (test_reproduction.GeometricAndOperationalChecks.test_origin_QP_and_infeasible_reset) ... ok
+test_recovery_remains_a_stress_diagnostic (test_reproduction.GeometricAndOperationalChecks.test_recovery_remains_a_stress_diagnostic) ... ok
+test_A_residual_law_does_not_depend_on_nominal_control_tail (test_reproduction.NumericalPrimitives.test_A_residual_law_does_not_depend_on_nominal_control_tail) ... ok
+test_controlled_mixture_weight_bound (test_reproduction.NumericalPrimitives.test_controlled_mixture_weight_bound) ... ok
+test_error_recursion_from_primitive_stream (test_reproduction.NumericalPrimitives.test_error_recursion_from_primitive_stream) ... ok
+test_order_statistic_rank_is_maximal (test_reproduction.NumericalPrimitives.test_order_statistic_rank_is_maximal) ... ok
+test_plant_stability_and_markov_probabilities (test_reproduction.NumericalPrimitives.test_plant_stability_and_markov_probabilities) ... ok
+test_repeated_primitive_seed (test_reproduction.NumericalPrimitives.test_repeated_primitive_seed) ... ok
+test_scenario_count_and_scalar_minimum (test_reproduction.NumericalPrimitives.test_scenario_count_and_scalar_minimum) ... ok
+test_small_sample_is_rejected (test_reproduction.NumericalPrimitives.test_small_sample_is_rejected) ... ok
+test_config_matches_engine (test_reproduction.RepositoryRegression.test_config_matches_engine) ... ok
+test_csv_flags_and_missing_cells_are_checked (test_reproduction.RepositoryRegression.test_csv_flags_and_missing_cells_are_checked) ... ok
+test_independent_audit_of_archive (test_reproduction.RepositoryRegression.test_independent_audit_of_archive) ... ok
+test_json_corruption_is_detected (test_reproduction.RepositoryRegression.test_json_corruption_is_detected) ... ok
+test_missing_results_never_pass_a_full_comparison (test_reproduction.RepositoryRegression.test_missing_results_never_pass_a_full_comparison) ... ok
+test_reference_integrity (test_reproduction.RepositoryRegression.test_reference_integrity) ... ok
+test_timing_difference_is_excluded (test_reproduction.RepositoryRegression.test_timing_difference_is_excluded) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 2.355s
+
+OK

@@ -1,0 +1,36 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "pandas": "2.2.3",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "study": "all",
+  "elapsed_seconds": 216.84206839500007,
+  "N_design": 1800,
+  "N_calibration": 50000,
+  "N_test": 80000,
+  "main_missions": 120,
+  "T": 22,
+  "epsilon": 0.1,
+  "beta": 0.004,
+  "delta_per_method_per_experiment": 0.001,
+  "replication_offsets": [
+    0,
+    30000,
+    40000,
+    50000
+  ],
+  "shift_factors": [
+    1.0,
+    3.0,
+    10.0,
+    25.0,
+    100.0,
+    59049.0
+  ],
+  "script_hashes": {
+    "compatible.py": "72dcb456f14fc57ad054a31a9111769dbdc7d302d591a93fd11eb55dfac6aa66",
+    "reproduce.py": "91ccb8250a6fd4f70f9f3c3c9a710c60204dd3a5fd64721e353fad865ebc4281",
+    "mpc_core.py": "982dc16d10e244da55ebcefbc678f006db4a4ad228e45048a9f1d882bd700a29"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "figures": [
+    {
+      "figure": "benchmark_A_tightening.pdf",
+      "pixel_identical": true,
+      "width_px": 879,
+      "height_px": 411,
+      "render_scale": 2
+    },
+    {
+      "figure": "benchmark_B_shift.pdf",
+      "pixel_identical": true,
+      "width_px": 879,
+      "height_px": 382,
+      "render_scale": 2
+    }
+  ]
+}

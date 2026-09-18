@@ -1,0 +1,44 @@
+{
+  "experiments/compatible.py": "syntax passed",
+  "experiments/make_paper_assets.py": "syntax passed",
+  "experiments/mpc_core.py": "syntax passed",
+  "experiments/reproduce.py": "syntax passed",
+  "reproduce.py": "syntax passed",
+  "tests/test_reproduction.py": "syntax passed",
+  "tools/__init__.py": "syntax passed",
+  "tools/audit.py": "syntax passed",
+  "tools/common.py": "syntax passed",
+  "tools/compare.py": "syntax passed",
+  "tools/export_data.py": "syntax passed",
+  "tools/smoke.py": "syntax passed",
+  ".github/workflows/full-reproduction.yml": "YAML parsed; required workflow keys present",
+  ".github/workflows/tests.yml": "YAML parsed; required workflow keys present",
+  "CITATION.cff": "YAML parsed; required fields and unpublished citation checked against CFF 1.2.0 schema definitions",
+  "paper_baseline_unchanged": true,
+  "B_exported_test_rates": [
+    {
+      "method": "uninflated",
+      "computed_rates": [
+        0.00265,
+        0.0033125
+      ],
+      "reference_rates": [
+        0.00265,
+        0.0033125
+      ],
+      "exact_match": true
+    },
+    {
+      "method": "shift_corrected",
+      "computed_rates": [
+        0.000525,
+        0.000975
+      ],
+      "reference_rates": [
+        0.000525,
+        0.000975
+      ],
+      "exact_match": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "figure": "benchmark_A_tightening",
+    "baseline_pixels": [
+      879,
+      411
+    ],
+    "regenerated_pixels": [
+      879,
+      411
+    ],
+    "rendered_pixel_identity": true
+  },
+  {
+    "figure": "benchmark_B_shift",
+    "baseline_pixels": [
+      879,
+      382
+    ],
+    "regenerated_pixels": [
+      879,
+      382
+    ],
+    "rendered_pixel_identity": true
+  }
+]

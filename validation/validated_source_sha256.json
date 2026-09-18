@@ -1,0 +1,14 @@
+{
+  "experiments/compatible.py": "72dcb456f14fc57ad054a31a9111769dbdc7d302d591a93fd11eb55dfac6aa66",
+  "experiments/make_paper_assets.py": "bdaada601299f4f24343cedd14a6bc2ac269d3f1da87e0727d16c6dc5f555fcc",
+  "experiments/mpc_core.py": "982dc16d10e244da55ebcefbc678f006db4a4ad228e45048a9f1d882bd700a29",
+  "experiments/reproduce.py": "91ccb8250a6fd4f70f9f3c3c9a710c60204dd3a5fd64721e353fad865ebc4281",
+  "reproduce.py": "29347a75965a5ec28fed0d6f9d1aa697daf2fa0b2cdcc728ae9cce5d8ed86608",
+  "tests/test_reproduction.py": "b885a08a6341fec10bbfc9bb21c3e7ad4cc6937f0175d2722e266da88a29bcc6",
+  "tools/__init__.py": "2de22ac48ef5fd0557ffaa294e6a35e876a58341fd18d2655439218323fbea3c",
+  "tools/audit.py": "9ebf19d868bfd2434c80429da869d55280628bce2d339bdd3cc735828bfea7be",
+  "tools/common.py": "d8777a81e3ae2c02e778fc42051eb07d207d5afe4ad69151c8e414d6ce0c4e5f",
+  "tools/compare.py": "54121c3d4e5a572d9d41d63065b8db5e3266662d8036aa08385efb40d99160a9",
+  "tools/export_data.py": "12e873a36b3854026265ca4491c683ac22865bf532b740f8d4abdacea4ca34da",
+  "tools/smoke.py": "16fe0351008063d2144a9b7164d2fa96571fa16ce218cd2f3e58408a47109bde"
+}

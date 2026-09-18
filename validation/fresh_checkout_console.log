@@ -1,0 +1,80 @@
+START A
+collective_compatible completed 120 cost 25.878758087587222 tightenings 5.09761979700048 25.818350722147095
+calibrate_then_close completed 120 cost 25.912180108417065 tightenings 9.329520632934859 47.42461838802669
+global_compatible completed 120 cost 25.92917327970799 tightenings 5.681158929066057 29.43781775798562
+bonferroni completed 120 cost 25.886866629973383 tightenings 7.013148437380814 35.49730842593586
+scenario completed 120 cost 25.884292924940457 tightenings 6.46412762001321 32.601793254541114
+noedge completed 120 cost 25.8903691430866 tightenings 2.162592432470476 11.301743449923325
+collective_equal_total completed 120 cost 25.879663176789578 tightenings 5.406669958347611 27.37430939579173
+collective_compatible completed 120 cost 20.823586728179166 tightenings 5.14160699347443 26.019173679671255
+calibrate_then_close completed 120 cost 20.840266095266976 tightenings 9.0217913655672 45.82006431239118
+global_compatible completed 120 cost 20.85705225993028 tightenings 5.7158939143137255 29.608028944995002
+bonferroni completed 120 cost 20.827208409278388 tightenings 6.943428622027635 35.11334980659456
+scenario completed 120 cost 20.826136974882516 tightenings 6.4093758405079235 32.40505326789892
+collective_compatible completed 120 cost 24.27825346780444 tightenings 5.055489297288222 25.590491739171622
+calibrate_then_close completed 120 cost 24.30711818128096 tightenings 8.873684845986034 45.07603476368801
+global_compatible completed 120 cost 24.324596765067927 tightenings 5.718990111084872 29.621334507546955
+bonferroni completed 120 cost 24.285202120170123 tightenings 7.154496343259521 36.23243135876969
+scenario completed 120 cost 24.281663640329775 tightenings 6.312361762496624 32.01663991045893
+collective_compatible completed 120 cost 23.836524993488776 tightenings 5.047245398718779 25.541352464693663
+calibrate_then_close completed 120 cost 23.870698330056463 tightenings 8.408736123458375 42.745695691467326
+global_compatible completed 120 cost 23.882312746338773 tightenings 5.718813824976203 29.612046627603412
+bonferroni completed 120 cost 23.84772539412283 tightenings 7.21161587833742 36.640636163084714
+scenario completed 120 cost 23.84083503019646 tightenings 5.892393861090943 29.966894042527315
+START mixture
+START budget
+reserve_contextual completed 40 cost 19.073062769122167 tightenings 5.5383182458499425 28.114906629478
+greedy completed 0 cost 48.90101224277158 tightenings 5.04670444535701 25.51124446039954
+preflight completed 0 cost None tightenings None None
+START recovery
+interior_shock completed 1 cost 358.69788328253117 tightenings 5.04670444535701 25.511244460399535
+START B
+uninflated completed 40 cost 9.537527798865558 tightenings 9.642308985608935 22.820054672460625
+shift_corrected completed 40 cost 9.537527798865558 tightenings 9.642308985608935 22.820054672460625
+shift sweep {'Gamma': 1.0, 'one_step_ratio': 1.0, 'maximum_heavy_weight': 0.05, 'minimum_calibration_samples': 1897, 'uncorrected_test_pct': 0.31625, 'uncorrected_legitimate_budget': 0.08763801445732589, 'uncorrected_state_tightening_pct': 9.642308985608935, 'uncorrected_input_tightening_pct': 22.820054672460625, 'status': 'admissible', 'corrected_test_pct': 0.31625, 'corrected_state_tightening_pct': 9.642308985608935, 'corrected_input_tightening_pct': 22.820054672460625, 'risk_spent': 0.08763801445732589, 'completed': 40}
+uninflated completed 120 cost 10.968863962766976 tightenings 9.614877715079551 22.74578343876554
+shift_corrected completed 120 cost 10.96885740982779 tightenings 11.90894780782898 28.172833378380453
+shift sweep {'Gamma': 3.0, 'one_step_ratio': 1.1161231740339044, 'maximum_heavy_weight': 0.055806158701695224, 'minimum_calibration_samples': 5697, 'uncorrected_test_pct': 0.33125, 'uncorrected_legitimate_budget': 0.26291404337197766, 'uncorrected_state_tightening_pct': 9.614877715079551, 'uncorrected_input_tightening_pct': 22.74578343876554, 'status': 'admissible', 'corrected_test_pct': 0.09749999999999999, 'corrected_state_tightening_pct': 11.90894780782898, 'corrected_input_tightening_pct': 28.172833378380453, 'risk_spent': 0.08794723839028057, 'completed': 120}
+uninflated completed 40 cost 9.541706915011247 tightenings 9.642308985608935 22.820054672460625
+shift_corrected completed 40 cost 9.541706887384745 tightenings 15.676470621066684 37.10085594414005
+shift sweep {'Gamma': 10.0, 'one_step_ratio': 1.2589254117941673, 'maximum_heavy_weight': 0.06294627058970836, 'minimum_calibration_samples': 18999, 'uncorrected_test_pct': 0.36250000000000004, 'uncorrected_legitimate_budget': 0.8763801445732589, 'uncorrected_state_tightening_pct': 9.642308985608935, 'uncorrected_input_tightening_pct': 22.820054672460625, 'status': 'admissible', 'corrected_test_pct': 0.008749999999999999, 'corrected_state_tightening_pct': 15.676470621066684, 'corrected_input_tightening_pct': 37.10085594414005, 'risk_spent': 0.08382974413992124, 'completed': 40}
+uninflated completed 40 cost 9.541706915011247 tightenings 9.642308985608935 22.820054672460625
+shift_corrected completed 40 cost 9.541706918993231 tightenings 20.378503602481427 48.228963316320595
+shift sweep {'Gamma': 25.0, 'one_step_ratio': 1.379729661461215, 'maximum_heavy_weight': 0.06898648307306075, 'minimum_calibration_samples': 47502, 'uncorrected_test_pct': 0.38875, 'uncorrected_legitimate_budget': 2.1909503614331474, 'uncorrected_state_tightening_pct': 9.642308985608935, 'uncorrected_input_tightening_pct': 22.820054672460625, 'status': 'admissible', 'corrected_test_pct': 0.00125, 'corrected_state_tightening_pct': 20.378503602481427, 'corrected_input_tightening_pct': 48.228963316320595, 'risk_spent': 0.08360357226798036, 'completed': 40}
+uninflated completed 40 cost 9.541750077431804 tightenings 9.642308985608935 22.820054672460625
+shift sweep {'Gamma': 100.0, 'one_step_ratio': 1.5848931924611136, 'maximum_heavy_weight': 0.07924465962305569, 'minimum_calibration_samples': 190019, 'uncorrected_test_pct': 0.43375, 'uncorrected_legitimate_budget': 8.76380144573259, 'uncorrected_state_tightening_pct': 9.642308985608935, 'uncorrected_input_tightening_pct': 22.820054672460625, 'status': 'sample_rejected', 'reason': 'Insufficient sample size N=50000, risk=4e-05, delta=0.0005'}
+uninflated completed 40 cost 9.544287774273474 tightenings 9.642308985608935 22.820054672460625
+shift sweep {'Gamma': 59049.0, 'one_step_ratio': 3.0, 'maximum_heavy_weight': 0.15000000000000002, 'minimum_calibration_samples': 112206419, 'uncorrected_test_pct': 0.73875, 'uncorrected_legitimate_budget': 22.0, 'uncorrected_state_tightening_pct': 9.642308985608935, 'uncorrected_input_tightening_pct': 22.820054672460625, 'status': 'sample_rejected', 'reason': 'Insufficient sample size N=50000, risk=6.774035123372115e-08, delta=0.0005'}
+START grid
+feasible grid collective_compatible 0.8800512183790459
+feasible grid calibrate_then_close 0.8101574484915892
+feasible grid global_compatible 0.8680527788884455
+feasible grid bonferroni 0.8682621418369232
+feasible grid scenario 0.8738027056383932
+COMPLETE 116.31749825399993 seconds
+Generated three tables and two figures. Minimum counts: 1998 8295 43111
+Verification: PASS; 42 CSV files, 78 JSON files, 11677 independent checks. Report: /mnt/data/ima_repro_work/fresh_checkout/contextual-collective-tube-mpc/runs/full/verification.json
+Results written to /mnt/data/ima_repro_work/fresh_checkout/contextual-collective-tube-mpc/runs/full
+	Command being timed: "python reproduce.py run --study all --output runs/full --exact-csv"
+	User time (seconds): 124.24
+	System time (seconds): 1.93
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:05.79
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 329068
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 326013
+	Voluntary context switches: 136
+	Involuntary context switches: 779
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 53120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,18 @@
+{
+  "design": [
+    "fdec6a57d668fb61bc3d9368188cd5172dc01d0caffed56a7f4fbca5cfc763b9",
+    "11d4e5359c02fdc6b75051b5a0ddf28483541470dde8145934844df12dc4c956"
+  ],
+  "calibration": [
+    "5d1a0abb6fbec49d3d99a7a6f24e0dd5f65e8a482e215aad6af48d23397c53e8",
+    "8b5aaff5c0ab7d7a42444f51bbfc1d28e4d5d9978ee6582241511a2f23ac63fd"
+  ],
+  "factors": [
+    1.0,
+    3.0,
+    10.0,
+    25.0,
+    100.0,
+    59049.0
+  ]
+}

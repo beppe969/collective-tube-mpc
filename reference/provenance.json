@@ -1,0 +1,27 @@
+{
+  "baseline": "Latest language-edited manuscript and synchronized response package",
+  "paper_title": "Contextual Collective-Tube Model Predictive Control with Finite-Sample Safety Certificates",
+  "paper_author": "Giuseppe C. Calafiore",
+  "manuscript_pages": 34,
+  "numerical_section": "8 (pages 24\u201330)",
+  "source_archive_sha256": "a07da9cd4b1a068e17952659dc1c1d37d082bb0e08b80ce013cc7f789772cdf3",
+  "baseline_hashes": {
+    "main.tex": "ed8cc8fc69267d88fe0e147272c8ed1537d6279d05dfda1f5a5083fa144b5225",
+    "main.pdf": "bac97808835708b27c7b2efb39ef413063ed29b90687cae52dcaacdeb020579f",
+    "main_clean.pdf": "c160dab6c3c09ac3ed77db90ea033b39bfaa862f4c777413a18cbf9ce9fe868e",
+    "numerical_revision.tex": "9d52b24e5859a2d658627a2e88344cb55e5a296bd848d6de4120e5b09e0344f9",
+    "main.aux": "b8c56e57293744bf96c572b392104542ed83575b6887c166c8e306ca4d65f25f"
+  },
+  "engine_sha256": {
+    "mpc_core.py": "982dc16d10e244da55ebcefbc678f006db4a4ad228e45048a9f1d882bd700a29",
+    "reproduce.py": "91ccb8250a6fd4f70f9f3c3c9a710c60204dd3a5fd64721e353fad865ebc4281",
+    "compatible.py": "72dcb456f14fc57ad054a31a9111769dbdc7d302d591a93fd11eb55dfac6aa66",
+    "make_paper_assets.py": "bdaada601299f4f24343cedd14a6bc2ac269d3f1da87e0727d16c6dc5f555fcc"
+  },
+  "scope": "All four experiment scripts, archived results, tables, and figures are copied byte-for-byte. Manuscript and reviewer correspondence are excluded from the public repository. The numerical-section fragment is included for provenance, with its existing markup.",
+  "historical_manifest": "reference/results/run_manifest_all.json",
+  "reference_counts": {
+    "csv": 42,
+    "json": 79
+  }
+}

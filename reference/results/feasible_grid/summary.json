@@ -1,0 +1,52 @@
+[
+  {
+    "method": "collective_compatible",
+    "points_per_context": 2501,
+    "weighted_feasible_pct": 88.00512183790458,
+    "context_feasible_pct": [
+      88.08476609356258,
+      87.60495801679328,
+      86.6453418632547
+    ]
+  },
+  {
+    "method": "calibrate_then_close",
+    "points_per_context": 2501,
+    "weighted_feasible_pct": 81.01574484915892,
+    "context_feasible_pct": [
+      81.36745301879247,
+      79.12834866053579,
+      75.4498200719712
+    ]
+  },
+  {
+    "method": "global_compatible",
+    "points_per_context": 2501,
+    "weighted_feasible_pct": 86.80527788884454,
+    "context_feasible_pct": [
+      86.80527788884447,
+      86.80527788884447,
+      86.80527788884447
+    ]
+  },
+  {
+    "method": "bonferroni",
+    "points_per_context": 2501,
+    "weighted_feasible_pct": 86.82621418369231,
+    "context_feasible_pct": [
+      87.04518192722911,
+      85.60575769692123,
+      83.5265893642543
+    ]
+  },
+  {
+    "method": "scenario",
+    "points_per_context": 2501,
+    "weighted_feasible_pct": 87.38027056383932,
+    "context_feasible_pct": [
+      87.5249900039984,
+      86.72530987604958,
+      84.64614154338264
+    ]
+  }
+]

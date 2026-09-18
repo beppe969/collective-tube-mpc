@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "baseline": "latest 34-page language-edited manuscript numerical package",
+  "same_environment_complete_fixed_stream_reruns": 3,
+  "fresh_extracted_repository_full_run": true,
+  "csv_files_byte_identical": 42,
+  "scientific_json_files_matching": 78,
+  "ignored_numeric_fields": [
+    "elapsed_seconds",
+    "solve_median_ms"
+  ],
+  "historical_environment_manifest_excluded": true,
+  "unit_tests_passed": 22,
+  "independent_checks_per_final_full_run": 11677,
+  "atlas_log_pairs_checked": 36,
+  "mission_log_rows_checked": 71305,
+  "latex_tables_byte_identical": 3,
+  "pdf_figures_pixel_identical": 2,
+  "smoke_test_passed": true,
+  "A_and_B_synthetic_export_checked": true,
+  "partial_mixture_run_and_validation_passed": true,
+  "fresh_extraction_full_run_wall_clock": "2:05.79",
+  "fresh_extraction_full_run_peak_resident_KiB": 329068,
+  "fresh_network_dependency_installation_verified": false,
+  "network_installation_failure": "Package index address could not be resolved on the validation host.",
+  "github_actions_executed": false,
+  "docker_build_executed": false
+}

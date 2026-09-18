@@ -1,0 +1,193 @@
+{
+  "benchmark": "B",
+  "seed_offset": 100000,
+  "gamma": 3.0,
+  "arrays": {
+    "design_g0.npy": {
+      "shape": [
+        1800,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 101100,
+      "raw_c_order_sha256": "fdec6a57d668fb61bc3d9368188cd5172dc01d0caffed56a7f4fbca5cfc763b9",
+      "npy_file_sha256": "16615d933f610581ec04ff1aa16be294c303f5dafe4d3d677cd0909fa5081c77"
+    },
+    "design_g1.npy": {
+      "shape": [
+        1800,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 101101,
+      "raw_c_order_sha256": "11d4e5359c02fdc6b75051b5a0ddf28483541470dde8145934844df12dc4c956",
+      "npy_file_sha256": "fcd80b019f8bfabf3d6f7a79b330bf8df70676631f7dfa8f2827c18ebdf56416"
+    },
+    "calibration_g0.npy": {
+      "shape": [
+        50000,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 102100,
+      "raw_c_order_sha256": "5d1a0abb6fbec49d3d99a7a6f24e0dd5f65e8a482e215aad6af48d23397c53e8",
+      "npy_file_sha256": "f310c599699aae3638f9412542fc005c068a345c11f4d2df2b62c607fca03a1b"
+    },
+    "calibration_g1.npy": {
+      "shape": [
+        50000,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 102101,
+      "raw_c_order_sha256": "8b5aaff5c0ab7d7a42444f51bbfc1d28e4d5d9978ee6582241511a2f23ac63fd",
+      "npy_file_sha256": "48fc35804f2b887c2fd422e54775176ade5fd72572bff9033e4dcaf5d00b630f"
+    },
+    "test_initial_states.npy": {
+      "shape": [
+        80000,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 104200,
+      "raw_c_order_sha256": "1f3a96c3767ffc56abd36cd167c42005701c6830f87323cf06db6dff687e1883",
+      "npy_file_sha256": "0cebce23e385b21bce6aaad2d88599f828111b77c25a7d1ef232840c7c138eaa"
+    },
+    "test_g0.npy": {
+      "shape": [
+        80000,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 104100,
+      "raw_c_order_sha256": "487d238308e655302e6ca48cafb54319fb35cb71a34b53bbcc18aaf8920e65f1",
+      "npy_file_sha256": "3ff32d58eae5ffcba7cbc25ebddfc9e0b11bd0b07e0709d07eb49dce9789d68a"
+    },
+    "test_modes_g0.npy": {
+      "shape": [
+        80000,
+        10
+      ],
+      "dtype": "int64",
+      "primitive_seed": 104100,
+      "raw_c_order_sha256": "ecdaa89bc9f26887228fab856fc74f87e50b3acd0afd0fddba1e6415b0e809cf",
+      "npy_file_sha256": "1fe1f79e04a7fdb12ca9275d5370c8b42e3a00f34dc5c38c4f02a904c8630595"
+    },
+    "test_eta_g0.npy": {
+      "shape": [
+        80000,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 104100,
+      "raw_c_order_sha256": "90dece10e5d2768ab2e3cf962e1dbfeb3a266d6a2b753fba59e5f9992dba7e55",
+      "npy_file_sha256": "34f2acff8d8405fc479bffddbe6364e3186583a2e6fd436fd565bf2b214c1764"
+    },
+    "test_mixture_uniforms_g0.npy": {
+      "shape": [
+        80000,
+        10
+      ],
+      "dtype": "float64",
+      "primitive_seed": 104100,
+      "raw_c_order_sha256": "a92f23e6f1430b800f415bd2d7eca1c2ff3a716791bc97d0d18a7b88cb88ca32",
+      "npy_file_sha256": "37db6b3ca0702babff733abe45db7fa26a505ed59d4d5c130709118ab30495fa"
+    },
+    "test_g1.npy": {
+      "shape": [
+        80000,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 104101,
+      "raw_c_order_sha256": "11050abb0f485f51fc32c320fcdd49975ba92a561f852565ecfb07ece393ad04",
+      "npy_file_sha256": "5c3e0650aca7fe099bc0664d98e2d52554e15367d2a3e61710e760c210079d79"
+    },
+    "test_modes_g1.npy": {
+      "shape": [
+        80000,
+        10
+      ],
+      "dtype": "int64",
+      "primitive_seed": 104101,
+      "raw_c_order_sha256": "9ec3fa98133b769d391d33fee86900838fa220ab89a3fc74e4c00f1ac38de4d9",
+      "npy_file_sha256": "5210e14fbff889789f34053a0df43d9ae28555d20d1e8a8d5621cc68395fb63c"
+    },
+    "test_eta_g1.npy": {
+      "shape": [
+        80000,
+        10,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 104101,
+      "raw_c_order_sha256": "456379f3e43ef176365db7f1acd7b6fd4bc808e35326d2db5c4fcc0cd16af32e",
+      "npy_file_sha256": "c5f0158d2537bc49378f96bd39d6e5be8c8e6e9270da1a0482849c6d06f1ff6f"
+    },
+    "test_mixture_uniforms_g1.npy": {
+      "shape": [
+        80000,
+        10
+      ],
+      "dtype": "float64",
+      "primitive_seed": 104101,
+      "raw_c_order_sha256": "88e7836880433d5d4939707cdc1e177137f6afc923cca7595eee94bb8757c34d",
+      "npy_file_sha256": "ac6586dcb60778b5576f989049c7688c24f7b17758188ede530eef9578362013"
+    },
+    "mission_modes.npy": {
+      "shape": [
+        120,
+        32
+      ],
+      "dtype": "int64",
+      "primitive_seed": 105100,
+      "raw_c_order_sha256": "b91b87bd137ea08d5dd0a8c7c6414be24eef345ec79c0c0b89a251d016db7aed",
+      "npy_file_sha256": "05728087b6f3e7e77029c80b51a78454865389da04a758ba99a20b87e910971f"
+    },
+    "mission_eta.npy": {
+      "shape": [
+        120,
+        32,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 105100,
+      "raw_c_order_sha256": "30aa02419e1fa47e7b7c602d83530624ec7097650d3d2a6f9255963407be2f83",
+      "npy_file_sha256": "41c786ec4b9715b317fe3de4f0f16da72dc21bed4937490c0418b4e3b775c6a7"
+    },
+    "mission_mixture_uniforms.npy": {
+      "shape": [
+        120,
+        32
+      ],
+      "dtype": "float64",
+      "primitive_seed": 105100,
+      "raw_c_order_sha256": "f9ada087097eef02ac37fbdecb5e7f3e6721413679d82453380368842de71324",
+      "npy_file_sha256": "4a42b54789110ab3b2dd7d4fff6a93e5ccc21de2061a459e81431bf212c278f2"
+    },
+    "mission_initial_states.npy": {
+      "shape": [
+        120,
+        2
+      ],
+      "dtype": "float64",
+      "primitive_seed": 105877,
+      "raw_c_order_sha256": "25659953f3c8cc0de0dc1b156e1999a852f2ad6a73994fae579d2d74b451ac14",
+      "npy_file_sha256": "f6e951718f45e04d574e919c9f47e66ebf6ea7c9220cafa399866e38790063bf"
+    }
+  },
+  "reference_hash_checks": {
+    "design_g0.npy": true,
+    "design_g1.npy": true,
+    "calibration_g0.npy": true,
+    "calibration_g1.npy": true
+  },
+  "test_scope": "State-dependent K-feedback-tail diagnostic from the paper, at the selected Gamma."
+}

@@ -1,0 +1,314 @@
+{
+  "role": "Read-only protocol mirror for documentation and validation. The preserved experiments scripts define execution. Editing this file alone does not alter any experiment.",
+  "common": {
+    "design_trajectories_per_context": 1800,
+    "calibration_trajectories_per_context": 50000,
+    "test_trajectories_per_context": 80000,
+    "main_missions": 120,
+    "mission_steps": 22,
+    "trajectory_risk_target": 0.004,
+    "confidence_allowance_per_method_and_experiment": 0.001,
+    "initial_mission_budget": 0.1,
+    "replication_offsets_A": [
+      0,
+      30000,
+      40000,
+      50000
+    ],
+    "shift_factors_B": [
+      1.0,
+      3.0,
+      10.0,
+      25.0,
+      100.0,
+      59049.0
+    ]
+  },
+  "plants": {
+    "A": {
+      "name": "A",
+      "A": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "B": [
+        [
+          0.5
+        ],
+        [
+          1.0
+        ]
+      ],
+      "K": [
+        [
+          -0.717,
+          -1.061
+        ]
+      ],
+      "H": 8,
+      "Q": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.18
+        ]
+      ],
+      "R": 0.025,
+      "xmax": [
+        8.0,
+        4.0
+      ],
+      "umax": 1.55,
+      "transition": [
+        [
+          0.97,
+          0.025,
+          0.005
+        ],
+        [
+          0.25,
+          0.73,
+          0.02
+        ],
+        [
+          0.15,
+          0.1,
+          0.75
+        ]
+      ],
+      "L": [
+        [
+          [
+            0.005,
+            0.0
+          ],
+          [
+            0.0,
+            0.0075
+          ]
+        ],
+        [
+          [
+            0.01375,
+            0.005
+          ],
+          [
+            0.003,
+            0.02375
+          ]
+        ],
+        [
+          [
+            0.0325,
+            0.01625
+          ],
+          [
+            -0.00375,
+            0.04125
+          ]
+        ]
+      ],
+      "means": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.00375,
+          -0.0025
+        ],
+        [
+          -0.005,
+          0.00375
+        ]
+      ],
+      "alpha0": 0.0,
+      "gamma": 1.0,
+      "heavy_scale": 1.0
+    },
+    "B": {
+      "name": "B",
+      "A": [
+        [
+          1.0,
+          0.35
+        ],
+        [
+          -0.2275,
+          0.937
+        ]
+      ],
+      "B": [
+        [
+          0.06125
+        ],
+        [
+          0.35
+        ]
+      ],
+      "K": [
+        [
+          -1.371,
+          -1.713
+        ]
+      ],
+      "H": 10,
+      "Q": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.25
+        ]
+      ],
+      "R": 0.08,
+      "xmax": [
+        4.5,
+        3.0
+      ],
+      "umax": 4.0,
+      "transition": [
+        [
+          0.96,
+          0.04
+        ],
+        [
+          0.18,
+          0.82
+        ]
+      ],
+      "L": [
+        [
+          [
+            0.0048000000000000004,
+            0.0
+          ],
+          [
+            0.0008,
+            0.0072
+          ]
+        ],
+        [
+          [
+            0.012,
+            0.004
+          ],
+          [
+            -0.0016,
+            0.016800000000000002
+          ]
+        ]
+      ],
+      "means": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "alpha0": 0.05,
+      "gamma": 3.0,
+      "heavy_scale": 3.0
+    }
+  },
+  "solver": {
+    "method": "SLSQP",
+    "analytic_derivatives": true,
+    "ftol": 1e-10,
+    "maxiter": 100,
+    "maxiter_after_LP": 150,
+    "accepted_primal_violation": 2e-07,
+    "LP_solver": "HiGHS",
+    "edge_tolerance": 1e-10
+  },
+  "seeds": {
+    "design": "offset + 1100 + context",
+    "calibration": "offset + 2100 + context",
+    "test_A": "offset + 3100 + context",
+    "missions_A": "offset + 5100",
+    "offset_B": 100000,
+    "test_B_primitives": "104100 + context",
+    "test_B_initial_states": 104200,
+    "missions_B": 105100,
+    "mission_initial_state_offset": 777,
+    "pooled_design_A": 7100,
+    "pooled_calibration_A": 7200,
+    "budget_contextual_missions": 9100,
+    "budget_greedy_and_preflight_missions": 10100,
+    "recovery_missions": 11100
+  },
+  "budget_diagnostic": {
+    "risk_levels_by_context": [
+      [
+        0.004,
+        0.0012
+      ],
+      [
+        0.0037,
+        0.0015
+      ],
+      [
+        0.0031,
+        0.0018
+      ]
+    ],
+    "mission_budget": 0.065,
+    "missions": 40,
+    "selection_penalty": 0.001,
+    "greedy_and_preflight_budget": 0.02
+  },
+  "recovery_diagnostic": {
+    "initial_state": [
+      1.0,
+      0.1
+    ],
+    "added_shock": [
+      6.5,
+      3.0
+    ],
+    "shock_step": 3,
+    "mission_steps": 18,
+    "missions": 1,
+    "statistical_charging_stops_on_recovery": true
+  },
+  "equal_total_data": {
+    "shared_pool_per_context": 8295,
+    "design_indices_zero_based": [
+      0,
+      1799
+    ],
+    "calibration_indices_zero_based": [
+      1800,
+      8294
+    ],
+    "design_count": 1800,
+    "calibration_count": 6495
+  },
+  "feasible_grid": {
+    "position": [
+      -8,
+      8,
+      61
+    ],
+    "velocity": [
+      -4,
+      4,
+      41
+    ],
+    "weighting": "stationary context probabilities"
+  }
+}
