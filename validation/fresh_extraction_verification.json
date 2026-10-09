@@ -1,0 +1,1800 @@
+{
+  "ok": true,
+  "reference_integrity": {
+    "ok": true,
+    "reference_files_checked": 134,
+    "engine_files_checked": 4,
+    "paper_checksum_verified": true,
+    "errors": []
+  },
+  "comparison": {
+    "ok": true,
+    "complete_reference_coverage": true,
+    "csv_files_compared": 42,
+    "csv_files_byte_identical": 42,
+    "json_files_compared": 78,
+    "maximum_csv_absolute_difference": 0.0,
+    "floating_tolerance": {
+      "atol": 2e-07,
+      "rtol": 1e-08
+    },
+    "exact_csv_required": true,
+    "timing_fields_excluded": [
+      "elapsed_seconds",
+      "solve_median_ms"
+    ],
+    "environment_manifests_excluded": true,
+    "missing_files": [],
+    "extra_files": [],
+    "csv_max_differences": {},
+    "errors": []
+  },
+  "independent_audit": {
+    "ok": true,
+    "checks": 11677,
+    "atlases_checked": 36,
+    "mission_logs_checked": 36,
+    "rows_checked": 71305,
+    "errors": []
+  },
+  "paper_correspondence": {
+    "ok": true,
+    "checks": 216,
+    "reference_paper_pages": 33,
+    "coverage": "Tables 1-3 and numerical statements in Section 8; figures checked separately",
+    "rounding_rule": "Half a unit in the final printed decimal place plus 1e-12; counts exact",
+    "entries": [
+      {
+        "quantity": "collective_compatible/used_calibration_samples",
+        "paper_location": "Table 1, p.25",
+        "paper_value": 50000,
+        "recomputed_value": 50000,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/discard_count",
+        "paper_location": "Table 1, p.25",
+        "paper_value": 153,
+        "recomputed_value": 153,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/risk",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.003993875",
+        "recomputed_value": 0.003993874518386541,
+        "absolute_tolerance": 5.01e-10,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/spending",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.087865",
+        "recomputed_value": 0.0878652394045039,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/balance",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.012135",
+        "recomputed_value": 0.012134760595496105,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/used_calibration_samples",
+        "paper_location": "Table 1, p.25",
+        "paper_value": 50000,
+        "recomputed_value": 50000,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/discard_count",
+        "paper_location": "Table 1, p.25",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/risk",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.003448894",
+        "recomputed_value": 0.0034488942446042115,
+        "absolute_tolerance": 5.01e-10,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/spending",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.075876",
+        "recomputed_value": 0.07587567338129265,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/balance",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.024124",
+        "recomputed_value": 0.02412432661870735,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/used_calibration_samples",
+        "paper_location": "Table 1, p.25",
+        "paper_value": 8295,
+        "recomputed_value": 8295,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/discard_count",
+        "paper_location": "Table 1, p.25",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/risk",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.003999847",
+        "recomputed_value": 0.003999847274611132,
+        "absolute_tolerance": 5.01e-10,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/spending",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.087997",
+        "recomputed_value": 0.08799664004144492,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/balance",
+        "paper_location": "Table 1, p.25",
+        "paper_value": "0.012003",
+        "recomputed_value": 0.012003359958555088,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/cost_mean",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "25.879",
+        "recomputed_value": 25.878758087587222,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/horizon_escape_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.2652",
+        "recomputed_value": 0.2651515151515152,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/worst_context_test_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.2988",
+        "recomputed_value": 0.29875,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/state_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "5.10",
+        "recomputed_value": 5.09761979700048,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/input_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "25.82",
+        "recomputed_value": 25.818350722147095,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/feasible_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "88.01",
+        "recomputed_value": 88.00512183790458,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/completed_missions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 120,
+        "recomputed_value": 120,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/steps",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 2640,
+        "recomputed_value": 2640,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/state_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/input_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/reset_failure_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/budget_exhaustions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective_compatible/verified_edges",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 9,
+        "recomputed_value": 9,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/cost_mean",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "25.912",
+        "recomputed_value": 25.912180108417065,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/horizon_escape_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.0000",
+        "recomputed_value": 0.0,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/worst_context_test_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.0000",
+        "recomputed_value": 0.0,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/state_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "9.33",
+        "recomputed_value": 9.329520632934859,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/input_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "47.42",
+        "recomputed_value": 47.42461838802669,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/feasible_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "81.02",
+        "recomputed_value": 81.01574484915892,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/completed_missions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 120,
+        "recomputed_value": 120,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/steps",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 2640,
+        "recomputed_value": 2640,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/state_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/input_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/reset_failure_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/budget_exhaustions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "calibrate_then_close/verified_edges",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 9,
+        "recomputed_value": 9,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/cost_mean",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "25.929",
+        "recomputed_value": 25.92917327970799,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/horizon_escape_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.0000",
+        "recomputed_value": 0.0,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/worst_context_test_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.3425",
+        "recomputed_value": 0.3425,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/state_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "5.68",
+        "recomputed_value": 5.681158929066057,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/input_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "29.44",
+        "recomputed_value": 29.43781775798562,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/feasible_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "86.81",
+        "recomputed_value": 86.80527788884454,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/completed_missions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 120,
+        "recomputed_value": 120,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/steps",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 2640,
+        "recomputed_value": 2640,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/state_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/input_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/reset_failure_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/budget_exhaustions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "global_compatible/verified_edges",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 9,
+        "recomputed_value": 9,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/cost_mean",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "25.887",
+        "recomputed_value": 25.886866629973383,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/horizon_escape_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.0000",
+        "recomputed_value": 0.0,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/worst_context_test_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.0037",
+        "recomputed_value": 0.00375,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/state_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "7.01",
+        "recomputed_value": 7.013148437380814,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/input_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "35.50",
+        "recomputed_value": 35.49730842593586,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/feasible_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "86.83",
+        "recomputed_value": 86.82621418369231,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/completed_missions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 120,
+        "recomputed_value": 120,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/steps",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 2640,
+        "recomputed_value": 2640,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/state_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/input_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/reset_failure_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/budget_exhaustions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "bonferroni/verified_edges",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 9,
+        "recomputed_value": 9,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/cost_mean",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "25.884",
+        "recomputed_value": 25.884292924940457,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/horizon_escape_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.0000",
+        "recomputed_value": 0.0,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/worst_context_test_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.0325",
+        "recomputed_value": 0.0325,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/state_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "6.46",
+        "recomputed_value": 6.46412762001321,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/input_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "32.60",
+        "recomputed_value": 32.601793254541114,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/feasible_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "87.38",
+        "recomputed_value": 87.38027056383932,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/completed_missions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 120,
+        "recomputed_value": 120,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/steps",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 2640,
+        "recomputed_value": 2640,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/state_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/input_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/reset_failure_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/budget_exhaustions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "scenario/verified_edges",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 9,
+        "recomputed_value": 9,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/cost_mean",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "25.890",
+        "recomputed_value": 25.8903691430866,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/horizon_escape_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.1894",
+        "recomputed_value": 0.1893939393939394,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/worst_context_test_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "0.3387",
+        "recomputed_value": 0.33875,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/state_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "2.16",
+        "recomputed_value": 2.162592432470476,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/input_tightening_pct",
+        "paper_location": "Table 2, p.26",
+        "paper_value": "11.30",
+        "recomputed_value": 11.301743449923325,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/completed_missions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 120,
+        "recomputed_value": 120,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/steps",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 2640,
+        "recomputed_value": 2640,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/state_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/input_violation_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/reset_failure_count",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/budget_exhaustions",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/verified_edges",
+        "paper_location": "Section 8.2, pp.25-26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective/first_error_escapes",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": 7,
+        "recomputed_value": 7,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective/horizon_escapes",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": 7,
+        "recomputed_value": 7,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "collective/context_0_test_pct",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": "0.29875",
+        "recomputed_value": 0.29875,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "collective/context_1_test_pct",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": "0.29625",
+        "recomputed_value": 0.29625,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "collective/context_2_test_pct",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": "0.27750",
+        "recomputed_value": 0.2775,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "noedge/failed_scalar_inclusions",
+        "paper_location": "Section 8.2, p.26",
+        "paper_value": 89,
+        "recomputed_value": 89,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "minimum_calibration/scalar",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": 1998,
+        "recomputed_value": 1998,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "minimum_calibration/scenario",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": 8295,
+        "recomputed_value": 8295,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "minimum_calibration/bonferroni",
+        "paper_location": "Section 8.2, p.25",
+        "paper_value": 43111,
+        "recomputed_value": 43111,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "equal_total/state_tightening_pct",
+        "paper_location": "Data fairness, p.26",
+        "paper_value": "5.41",
+        "recomputed_value": 5.406669958347611,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "equal_total/input_tightening_pct",
+        "paper_location": "Data fairness, p.26",
+        "paper_value": "27.37",
+        "recomputed_value": 27.37430939579173,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "equal_total/cost_mean",
+        "paper_location": "Data fairness, p.26",
+        "paper_value": "25.880",
+        "recomputed_value": 25.879663176789578,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "equal_total/risk_spent_max",
+        "paper_location": "Data fairness, p.26",
+        "paper_value": "0.087618",
+        "recomputed_value": 0.08761813513659826,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "equal_total/budget_final_min",
+        "paper_location": "Data fairness, p.26",
+        "paper_value": "0.012382",
+        "recomputed_value": 0.012381864863401745,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "equal_total/calibration_count",
+        "paper_location": "Data fairness, p.26",
+        "paper_value": 6495,
+        "recomputed_value": 6495,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "equal_total/risk",
+        "paper_location": "Data fairness, p.26",
+        "paper_value": "0.003982643",
+        "recomputed_value": 0.003982642506209012,
+        "absolute_tolerance": 5.01e-10,
+        "ok": true
+      },
+      {
+        "quantity": "replication/min_state_tightening_pct",
+        "paper_location": "Replication, p.26",
+        "paper_value": "5.05",
+        "recomputed_value": 5.047245398718779,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "replication/max_state_tightening_pct",
+        "paper_location": "Replication, p.26",
+        "paper_value": "5.14",
+        "recomputed_value": 5.14160699347443,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "replication/min_input_tightening_pct",
+        "paper_location": "Replication, p.26",
+        "paper_value": "25.54",
+        "recomputed_value": 25.541352464693663,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "replication/max_input_tightening_pct",
+        "paper_location": "Replication, p.26",
+        "paper_value": "26.02",
+        "recomputed_value": 26.019173679671255,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "replication/completed_missions",
+        "paper_location": "Replication, p.26",
+        "paper_value": 480,
+        "recomputed_value": 480,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "replication/state_violation_count",
+        "paper_location": "Replication, p.26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "replication/reset_failure_count",
+        "paper_location": "Replication, p.26",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "replication/max_horizon_escape_pct",
+        "paper_location": "Replication, p.26",
+        "paper_value": "0.5682",
+        "recomputed_value": 0.5681818181818182,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "replication/all_conditional_test_rates_below_target",
+        "paper_location": "Replication, p.26",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "mixture/stationary_0",
+        "paper_location": "Conditional calibration, p.27",
+        "paper_value": "0.88394",
+        "recomputed_value": 0.8839406207827261,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "mixture/stationary_1",
+        "paper_location": "Conditional calibration, p.27",
+        "paper_value": "0.09109",
+        "recomputed_value": 0.0910931174089073,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "mixture/stationary_2",
+        "paper_location": "Conditional calibration, p.27",
+        "paper_value": "0.02497",
+        "recomputed_value": 0.024966261808367564,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "mixture/pooled_escape_pct",
+        "paper_location": "Conditional calibration, p.27",
+        "paper_value": "0.3387",
+        "recomputed_value": 0.3387289136302337,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "mixture/rare_mode_escape_pct",
+        "paper_location": "Conditional calibration, p.27",
+        "paper_value": "8.4013",
+        "recomputed_value": 8.401250000000001,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "budget/completed_missions",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 40,
+        "recomputed_value": 40,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "budget/distinct_level_schedules",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 12,
+        "recomputed_value": 12,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "budget/state_violation_count",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "budget/input_violation_count",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "budget/first_escape_count",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "budget/all_36_edges",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 36,
+        "recomputed_value": 36,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "budget/total_risk_min",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": "0.062348",
+        "recomputed_value": 0.0623480422046017,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "budget/total_risk_max",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": "0.064881",
+        "recomputed_value": 0.06488056061177411,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "budget/budget_final_min",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": "0.000119",
+        "recomputed_value": 0.00011943938822506217,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "greedy/contained_steps",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 5,
+        "recomputed_value": 5,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "greedy/first_error_escapes",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "greedy/spending",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": "0.019969",
+        "recomputed_value": 0.019969372591932703,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "preflight/applied_inputs",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "preflight/rejected_missions",
+        "paper_location": "Section 8.2.1, p.27",
+        "paper_value": 1,
+        "recomputed_value": 1,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/recovery_entry_step",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": 4,
+        "recomputed_value": 4,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/recovery_entry_inside_X",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/backup_steps",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": 14,
+        "recomputed_value": 14,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/state_violation_count",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": 4,
+        "recomputed_value": 4,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/input_violation_count",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/entry_state_0",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": "6.4969",
+        "recomputed_value": 6.496885858326711,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/entry_state_1",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": "2.9933",
+        "recomputed_value": 2.9932809362364203,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "recovery/spending",
+        "paper_location": "Section 8.2.1, p.28",
+        "paper_value": "0.015975",
+        "recomputed_value": 0.015975498073546163,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "shift/factor_sequence",
+        "paper_location": "Table 3, p.29",
+        "paper_value": [
+          1,
+          3,
+          10,
+          25,
+          100,
+          59049
+        ],
+        "recomputed_value": [
+          1,
+          3,
+          10,
+          25,
+          100,
+          59049
+        ],
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/maximum_heavy_weight_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "5.00",
+        "recomputed_value": 5.0,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/minimum_calibration_samples",
+        "paper_location": "Table 3, p.29",
+        "paper_value": 1897,
+        "recomputed_value": 1897,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/corrected_input_tightening_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "22.82",
+        "recomputed_value": 22.820054672460625,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/uncorrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.3162",
+        "recomputed_value": 0.31625,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/corrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.3162",
+        "recomputed_value": 0.31625,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/risk_spent",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.087638",
+        "recomputed_value": 0.0876380144573258,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/status",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "admissible",
+        "recomputed_value": "admissible",
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/completed_missions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 40,
+        "recomputed_value": 40,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/state_violation_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/reset_failure_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_1/budget_exhaustions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/maximum_heavy_weight_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "5.58",
+        "recomputed_value": 5.580615870169519,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/minimum_calibration_samples",
+        "paper_location": "Table 3, p.29",
+        "paper_value": 5697,
+        "recomputed_value": 5697,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/corrected_input_tightening_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "28.17",
+        "recomputed_value": 28.172833378380453,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/uncorrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.3312",
+        "recomputed_value": 0.33125,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/corrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.0975",
+        "recomputed_value": 0.0974999999999999,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/risk_spent",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.087947",
+        "recomputed_value": 0.0879472383902805,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/status",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "admissible",
+        "recomputed_value": "admissible",
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/completed_missions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 120,
+        "recomputed_value": 120,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/state_violation_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/reset_failure_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_3/budget_exhaustions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/maximum_heavy_weight_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "6.29",
+        "recomputed_value": 6.294627058970829,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/minimum_calibration_samples",
+        "paper_location": "Table 3, p.29",
+        "paper_value": 18999,
+        "recomputed_value": 18999,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/corrected_input_tightening_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "37.10",
+        "recomputed_value": 37.10085594414005,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/uncorrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.3625",
+        "recomputed_value": 0.3625,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/corrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.0087",
+        "recomputed_value": 0.0087499999999999,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/risk_spent",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.083830",
+        "recomputed_value": 0.0838297441399212,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/status",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "admissible",
+        "recomputed_value": "admissible",
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/completed_missions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 40,
+        "recomputed_value": 40,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/state_violation_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/reset_failure_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_10/budget_exhaustions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/maximum_heavy_weight_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "6.90",
+        "recomputed_value": 6.89864830730607,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/minimum_calibration_samples",
+        "paper_location": "Table 3, p.29",
+        "paper_value": 47502,
+        "recomputed_value": 47502,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/corrected_input_tightening_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "48.23",
+        "recomputed_value": 48.2289633163206,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/uncorrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.3887",
+        "recomputed_value": 0.38875,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/corrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.0013",
+        "recomputed_value": 0.00125,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/risk_spent",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.083604",
+        "recomputed_value": 0.0836035722679803,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/status",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "admissible",
+        "recomputed_value": "admissible",
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/completed_missions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 40,
+        "recomputed_value": 40,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/state_violation_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/reset_failure_count",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_25/budget_exhaustions",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": 0,
+        "recomputed_value": 0,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_100/maximum_heavy_weight_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "7.92",
+        "recomputed_value": 7.92446596230556,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_100/minimum_calibration_samples",
+        "paper_location": "Table 3, p.29",
+        "paper_value": 190019,
+        "recomputed_value": 190019,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_100/corrected_input_tightening_pct_unavailable",
+        "paper_location": "Table 3, p.29",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_100/uncorrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.4338",
+        "recomputed_value": 0.43375,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_100/corrected_test_pct_unavailable",
+        "paper_location": "Table 3, p.29",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_100/risk_spent_unavailable",
+        "paper_location": "Table 3, p.29",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_100/status",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "sample_rejected",
+        "recomputed_value": "sample_rejected",
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_59049/maximum_heavy_weight_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "15.00",
+        "recomputed_value": 15.0,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "shift_59049/minimum_calibration_samples",
+        "paper_location": "Table 3, p.29",
+        "paper_value": 112206419,
+        "recomputed_value": 112206419,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_59049/corrected_input_tightening_pct_unavailable",
+        "paper_location": "Table 3, p.29",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_59049/uncorrected_test_pct",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "0.7388",
+        "recomputed_value": 0.73875,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "shift_59049/corrected_test_pct_unavailable",
+        "paper_location": "Table 3, p.29",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_59049/risk_spent_unavailable",
+        "paper_location": "Table 3, p.29",
+        "paper_value": true,
+        "recomputed_value": true,
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "shift_59049/status",
+        "paper_location": "Table 3, p.29",
+        "paper_value": "sample_rejected",
+        "recomputed_value": "sample_rejected",
+        "absolute_tolerance": 0.0,
+        "ok": true
+      },
+      {
+        "quantity": "B_Gamma3/state_tightening_pct",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "11.91",
+        "recomputed_value": 11.90894780782898,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "B_Gamma3/input_tightening_pct",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "28.17",
+        "recomputed_value": 28.172833378380453,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "B_Gamma3/cost_mean",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "10.969",
+        "recomputed_value": 10.96885740982779,
+        "absolute_tolerance": 0.000500000001,
+        "ok": true
+      },
+      {
+        "quantity": "B_Gamma3/budget_final_min",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "0.012053",
+        "recomputed_value": 0.012052761609719437,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "B_Gamma3/certified_risk",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "0.003997602",
+        "recomputed_value": 0.003997601745012753,
+        "absolute_tolerance": 5.01e-10,
+        "ok": true
+      },
+      {
+        "quantity": "uninflated_Gamma3/state_tightening_pct",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "9.61",
+        "recomputed_value": 9.614877715079551,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "uninflated_Gamma3/input_tightening_pct",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "22.75",
+        "recomputed_value": 22.74578343876554,
+        "absolute_tolerance": 0.0050000000010000005,
+        "ok": true
+      },
+      {
+        "quantity": "uninflated_Gamma3/risk_spent_max",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "0.087638",
+        "recomputed_value": 0.08763801445732589,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "uninflated_Gamma3/legitimate_required_budget",
+        "paper_location": "Section 8.3, p.28",
+        "paper_value": "0.262914",
+        "recomputed_value": 0.26291404337197766,
+        "absolute_tolerance": 5.00001e-07,
+        "ok": true
+      },
+      {
+        "quantity": "strong_shift/context_0_escape_pct",
+        "paper_location": "Section 8.3, p.29",
+        "paper_value": "0.59625",
+        "recomputed_value": 0.59625,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "strong_shift/context_1_escape_pct",
+        "paper_location": "Section 8.3, p.29",
+        "paper_value": "0.73875",
+        "recomputed_value": 0.73875,
+        "absolute_tolerance": 5.000001000000001e-06,
+        "ok": true
+      },
+      {
+        "quantity": "strong_shift/context_0_lower_CI_pct",
+        "paper_location": "Section 8.3, p.29",
+        "paper_value": "0.5369",
+        "recomputed_value": 0.5368987425392533,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      },
+      {
+        "quantity": "strong_shift/context_1_lower_CI_pct",
+        "paper_location": "Section 8.3, p.29",
+        "paper_value": "0.6725",
+        "recomputed_value": 0.6725402549876668,
+        "absolute_tolerance": 5.0000001000000005e-05,
+        "ok": true
+      }
+    ],
+    "errors": []
+  },
+  "formatted_tables_byte_identical": {
+    "benchmark_A.csv": true,
+    "benchmark_A.md": true,
+    "calibration_budget_A.csv": true,
+    "calibration_budget_A.md": true,
+    "shift_sweep.csv": true,
+    "shift_sweep.md": true
+  }
+}

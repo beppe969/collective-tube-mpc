@@ -1,0 +1,23 @@
+# Generated runs and optional exported synthetic data.
+/runs/
+/data/
+/experiments/results/
+/figures/
+/tables/
+# Local environments and caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.mplconfig/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+Thumbs.db
+# Local credentials and editor files.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+*.swp

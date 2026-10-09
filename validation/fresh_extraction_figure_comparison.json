@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "renderer": "PyMuPDF 1.26.7",
+  "figures": {
+    "benchmark_A_tightening": {
+      "identical_render": true,
+      "dpi": 180
+    },
+    "benchmark_B_shift": {
+      "identical_render": true,
+      "dpi": 180
+    }
+  }
+}

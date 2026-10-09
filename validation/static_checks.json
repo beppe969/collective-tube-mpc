@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "local_document_links_checked": 13,
+  "unresolved_links": [],
+  "workflow_yaml_syntax": "pass",
+  "workflow_permissions": "read-only",
+  "citation_metadata": "pass",
+  "remote_workflows_executed": false,
+  "docker_built": false
+}

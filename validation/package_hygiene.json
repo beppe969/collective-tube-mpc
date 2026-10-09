@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "no_latex_sources": true,
+  "no_git_history_directory": true,
+  "no_font_files": true,
+  "no_archives_caches_or_backup_files": true,
+  "no_symlinks": true,
+  "relative_markdown_links_checked": true,
+  "missing_links": [],
+  "forbidden_files": [],
+  "paper_pages": 33,
+  "paper_embedded_file_attachments": 0,
+  "paper_sha256": "aea6842491cd3c45646d5a509fdb1a32902e3d35a16198baa8cf19a88be300b0",
+  "supplied_paper_byte_identity": true,
+  "git_configuration_files_and_github_workflows_included": true
+}

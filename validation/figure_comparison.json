@@ -1,0 +1,26 @@
+{
+  "renderer": "PyMuPDF 1.26.7",
+  "figures": {
+    "benchmark_A_tightening": {
+      "identical_render": true,
+      "pixels": [
+        1098,
+        513
+      ],
+      "dpi": 180,
+      "maximum_channel_difference": 0,
+      "render_sha256": "332992f778c7f93c0d8509b0771216e12219fb660c4ffa05ffcd29ab78554358"
+    },
+    "benchmark_B_shift": {
+      "identical_render": true,
+      "pixels": [
+        1098,
+        477
+      ],
+      "dpi": 180,
+      "maximum_channel_difference": 0,
+      "render_sha256": "b99cc0f9c6ec050718b2382b25976e3be8243061b6fcc8bd71904fe533d74727"
+    }
+  },
+  "ok": true
+}

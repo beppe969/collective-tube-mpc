@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "benchmark": "A",
+      "method": "collective_compatible",
+      "context": 0,
+      "exported_rate": 0.0029875,
+      "reference_rate": 0.0029875,
+      "ok": true
+    },
+    {
+      "benchmark": "A",
+      "method": "collective_compatible",
+      "context": 1,
+      "exported_rate": 0.0029625,
+      "reference_rate": 0.0029625,
+      "ok": true
+    },
+    {
+      "benchmark": "A",
+      "method": "collective_compatible",
+      "context": 2,
+      "exported_rate": 0.002775,
+      "reference_rate": 0.002775,
+      "ok": true
+    },
+    {
+      "benchmark": "B",
+      "method": "uninflated",
+      "context": 0,
+      "exported_rate": 0.00265,
+      "reference_rate": 0.00265,
+      "ok": true
+    },
+    {
+      "benchmark": "B",
+      "method": "uninflated",
+      "context": 1,
+      "exported_rate": 0.0033125,
+      "reference_rate": 0.0033125,
+      "ok": true
+    },
+    {
+      "benchmark": "B",
+      "method": "shift_corrected",
+      "context": 0,
+      "exported_rate": 0.000525,
+      "reference_rate": 0.000525,
+      "ok": true
+    },
+    {
+      "benchmark": "B",
+      "method": "shift_corrected",
+      "context": 1,
+      "exported_rate": 0.000975,
+      "reference_rate": 0.000975,
+      "ok": true
+    }
+  ]
+}

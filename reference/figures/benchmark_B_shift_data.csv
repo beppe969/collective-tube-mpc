@@ -1,0 +1,7 @@
+Gamma,status,uncorrected_test_pct,corrected_test_pct
+1.0,admissible,0.31625,0.31625
+3.0,admissible,0.33125,0.0974999999999999
+10.0,admissible,0.3625,0.0087499999999999
+25.0,admissible,0.38875,0.00125
+100.0,sample_rejected,0.43375,
+59049.0,sample_rejected,0.73875,

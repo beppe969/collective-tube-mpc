@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "comparison": {
+    "ok": true,
+    "complete_reference_coverage": true,
+    "csv_files_compared": 42,
+    "csv_files_byte_identical": 42,
+    "json_files_compared": 78,
+    "maximum_csv_absolute_difference": 0.0,
+    "floating_tolerance": {
+      "atol": 2e-07,
+      "rtol": 1e-08
+    },
+    "exact_csv_required": false,
+    "timing_fields_excluded": [
+      "elapsed_seconds",
+      "solve_median_ms"
+    ],
+    "environment_manifests_excluded": true,
+    "missing_files": [],
+    "extra_files": [],
+    "csv_max_differences": {},
+    "errors": []
+  },
+  "independent_audit": {
+    "ok": true,
+    "checks": 11677,
+    "atlases_checked": 36,
+    "mission_logs_checked": 36,
+    "rows_checked": 71305,
+    "errors": []
+  }
+}

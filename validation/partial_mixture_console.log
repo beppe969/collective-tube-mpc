@@ -1,0 +1,4 @@
+START mixture
+COMPLETE 0.6976252420000719 seconds
+Results written to /mnt/data/validation_work/partial_mixture
+Verification: PASS; 0 CSV files, 1 JSON files, 4 independent checks. Report: /mnt/data/build/collective-tube-mpc/validation/partial_mixture_verification.json

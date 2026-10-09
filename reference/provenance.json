@@ -1,0 +1,38 @@
+{
+  "paper_title": "Contextual Collective-Tube Model Predictive Control with Finite-Sample Safety Certificates",
+  "paper_author": "Giuseppe C. Calafiore",
+  "repository_url": "https://github.com/beppe969/collective-tube-mpc",
+  "paper_file": "paper/contextual_collective_tube_mpc.pdf",
+  "paper_sha256": "aea6842491cd3c45646d5a509fdb1a32902e3d35a16198baa8cf19a88be300b0",
+  "manuscript_pages": 33,
+  "numerical_section": "8 (pages 23-30)",
+  "paper_embedded_files": 0,
+  "source_inputs": {
+    "contextual_collective_tube_mpc_github.zip": "0607cbd23643687e41c79896a04171dddd0c28a3a5dbb73a4b5314d550730067",
+    "experiments.zip": "45389824ac9984bd204232ef3cc1a2037586b47a32bcfd2507b23fd9964d5a29",
+    "main_resubmission_black.pdf": "aea6842491cd3c45646d5a509fdb1a32902e3d35a16198baa8cf19a88be300b0"
+  },
+  "input_consistency": {
+    "all_input_result_files_identical": true,
+    "result_files_in_experiments_archive": 121,
+    "result_files_in_github_archive": 121,
+    "all_four_input_python_scripts_identical": true
+  },
+  "engine_sha256": {
+    "compatible.py": "72dcb456f14fc57ad054a31a9111769dbdc7d302d591a93fd11eb55dfac6aa66",
+    "reproduce.py": "799f875ac37a52f6caf0ece6320ef94b0623f4100418d91303a879181d741293",
+    "make_paper_assets.py": "50b985e29fe8a45c440cd3e3cfaa803f20da5e57884c63670a4340507cda95ee",
+    "mpc_core.py": "e3edba64d6778902787a7fb222e0958cedcff0c2152e92a5eefc8a1e1b780fea"
+  },
+  "source_engine_sha256": {
+    "compatible.py": "72dcb456f14fc57ad054a31a9111769dbdc7d302d591a93fd11eb55dfac6aa66",
+    "reproduce.py": "91ccb8250a6fd4f70f9f3c3c9a710c60204dd3a5fd64721e353fad865ebc4281",
+    "make_paper_assets.py": "bdaada601299f4f24343cedd14a6bc2ac269d3f1da87e0727d16c6dc5f555fcc",
+    "mpc_core.py": "982dc16d10e244da55ebcefbc678f006db4a4ad228e45048a9f1d882bd700a29"
+  },
+  "scope": "Reproduces the attached reference paper. Synthetic generators and paper parameters are preserved. Release engineering changes are described in docs/REPRODUCIBILITY.md. Tables are supplied in CSV and Markdown.",
+  "reference_counts": {
+    "csv": 42,
+    "json": 79
+  }
+}

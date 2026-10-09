@@ -1,0 +1,2 @@
+COMMAND: /opt/pyvenv/bin/python experiments/make_paper_assets.py
+Generated three CSV/Markdown tables and two PDF/PNG figures. Minimum counts: 1998 8295 43111

@@ -1,0 +1,211 @@
+{
+  "minimum_calibration_counts": {
+    "scalar": 1998,
+    "scenario": 8295,
+    "bonferroni": 43111
+  },
+  "strong_shift_simultaneous_95pct_intervals": [
+    [
+      0.005368987425392533,
+      0.006602124323262478
+    ],
+    [
+      0.006725402549876668,
+      0.00809551343881604
+    ]
+  ],
+  "replications": [
+    {
+      "offset": 0,
+      "collective_compatible": {
+        "cost_mean": 25.878758087587222,
+        "state_tightening_pct": 5.09761979700048,
+        "input_tightening_pct": 25.818350722147095,
+        "horizon_escape_pct": 0.2651515151515152,
+        "worst_context_test_pct": 0.29875,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "calibrate_then_close": {
+        "cost_mean": 25.912180108417065,
+        "state_tightening_pct": 9.329520632934859,
+        "input_tightening_pct": 47.42461838802669,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.0,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "global_compatible": {
+        "cost_mean": 25.92917327970799,
+        "state_tightening_pct": 5.681158929066057,
+        "input_tightening_pct": 29.43781775798562,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.3425,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "bonferroni": {
+        "cost_mean": 25.886866629973383,
+        "state_tightening_pct": 7.013148437380814,
+        "input_tightening_pct": 35.49730842593586,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.00375,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "scenario": {
+        "cost_mean": 25.884292924940457,
+        "state_tightening_pct": 6.46412762001321,
+        "input_tightening_pct": 32.601793254541114,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.0325,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      }
+    },
+    {
+      "offset": 30000,
+      "collective_compatible": {
+        "cost_mean": 20.823586728179166,
+        "state_tightening_pct": 5.14160699347443,
+        "input_tightening_pct": 26.019173679671255,
+        "horizon_escape_pct": 0.5681818181818182,
+        "worst_context_test_pct": 0.3225,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "calibrate_then_close": {
+        "cost_mean": 20.840266095266976,
+        "state_tightening_pct": 9.0217913655672,
+        "input_tightening_pct": 45.82006431239118,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.0,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "global_compatible": {
+        "cost_mean": 20.85705225993028,
+        "state_tightening_pct": 5.7158939143137255,
+        "input_tightening_pct": 29.608028944995002,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.27875,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "bonferroni": {
+        "cost_mean": 20.827208409278388,
+        "state_tightening_pct": 6.943428622027635,
+        "input_tightening_pct": 35.11334980659456,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.005,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "scenario": {
+        "cost_mean": 20.826136974882516,
+        "state_tightening_pct": 6.4093758405079235,
+        "input_tightening_pct": 32.40505326789892,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.025,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      }
+    },
+    {
+      "offset": 40000,
+      "collective_compatible": {
+        "cost_mean": 24.27825346780444,
+        "state_tightening_pct": 5.055489297288222,
+        "input_tightening_pct": 25.590491739171622,
+        "horizon_escape_pct": 0.1893939393939394,
+        "worst_context_test_pct": 0.3175,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "calibrate_then_close": {
+        "cost_mean": 24.30711818128096,
+        "state_tightening_pct": 8.873684845986034,
+        "input_tightening_pct": 45.07603476368801,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.00125,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "global_compatible": {
+        "cost_mean": 24.324596765067927,
+        "state_tightening_pct": 5.718990111084872,
+        "input_tightening_pct": 29.621334507546955,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.32125000000000004,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "bonferroni": {
+        "cost_mean": 24.285202120170123,
+        "state_tightening_pct": 7.154496343259521,
+        "input_tightening_pct": 36.23243135876969,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.00375,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "scenario": {
+        "cost_mean": 24.281663640329775,
+        "state_tightening_pct": 6.312361762496624,
+        "input_tightening_pct": 32.01663991045893,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.06625,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      }
+    },
+    {
+      "offset": 50000,
+      "collective_compatible": {
+        "cost_mean": 23.836524993488776,
+        "state_tightening_pct": 5.047245398718779,
+        "input_tightening_pct": 25.541352464693663,
+        "horizon_escape_pct": 0.3409090909090909,
+        "worst_context_test_pct": 0.30374999999999996,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "calibrate_then_close": {
+        "cost_mean": 23.870698330056463,
+        "state_tightening_pct": 8.408736123458375,
+        "input_tightening_pct": 42.745695691467326,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.0,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "global_compatible": {
+        "cost_mean": 23.882312746338773,
+        "state_tightening_pct": 5.718813824976203,
+        "input_tightening_pct": 29.612046627603412,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.3075,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "bonferroni": {
+        "cost_mean": 23.84772539412283,
+        "state_tightening_pct": 7.21161587833742,
+        "input_tightening_pct": 36.640636163084714,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.005,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      },
+      "scenario": {
+        "cost_mean": 23.84083503019646,
+        "state_tightening_pct": 5.892393861090943,
+        "input_tightening_pct": 29.966894042527315,
+        "horizon_escape_pct": 0.0,
+        "worst_context_test_pct": 0.09749999999999999,
+        "state_violation_count": 0,
+        "reset_failure_count": 0
+      }
+    }
+  ]
+}

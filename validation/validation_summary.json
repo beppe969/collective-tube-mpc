@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "validation_date": "2026-10-08",
+  "unit_tests": 31,
+  "release_full_executions": 2,
+  "scientific_csv_files": 42,
+  "csv_byte_identical": 42,
+  "scientific_json_files": 78,
+  "paper_checks": 216,
+  "independent_checks": 11677,
+  "atlases_checked": 36,
+  "mission_log_rows": 71305,
+  "applied_control_steps": 71303,
+  "accepted_QPs": 71837,
+  "maximum_accepted_QP_primal_violation": 1.467892474238397e-11,
+  "figure_pixel_equality": true,
+  "reference_paper_unchanged": true,
+  "pinned_versions_match": true,
+  "fresh_dependency_install_verified": false,
+  "hosted_actions_executed": false,
+  "docker_executed": false,
+  "github_repository_modified": false
+}

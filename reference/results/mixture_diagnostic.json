@@ -1,0 +1,14 @@
+{
+  "initial_mode_weights": [
+    0.8839406207827261,
+    0.0910931174089073,
+    0.024966261808367564
+  ],
+  "mixture_certificate": 0.003992462288695385,
+  "conditional_escape_rates": [
+    0.00115,
+    0.003,
+    0.0840125
+  ],
+  "mixture_weighted_test_rate": 0.003387289136302337
+}

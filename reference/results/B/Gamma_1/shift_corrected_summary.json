@@ -1,0 +1,167 @@
+{
+  "method": "shift_corrected",
+  "missions": 40,
+  "T": 22,
+  "epsilon": 0.1,
+  "reserve_enforced": true,
+  "admitted_missions": 40,
+  "completed_missions": 40,
+  "steps": 880,
+  "budget_exhaustions": 0,
+  "budget_rejections": 0,
+  "state_rejections": 0,
+  "cost_mean": 9.537527798865558,
+  "horizon_escape_pct": 0.3409090909090909,
+  "first_escape_count": 3,
+  "state_violation_count": 0,
+  "input_violation_count": 0,
+  "reset_failure_count": 0,
+  "backup_steps": 0,
+  "nominal_failure_count": 0,
+  "risk_spent_min": 0.08763801445732589,
+  "risk_spent_max": 0.08763801445732589,
+  "budget_final_min": 0.01236198554267412,
+  "state_tightening_pct": 9.642308985608935,
+  "input_tightening_pct": 22.820054672460625,
+  "solve_median_ms": 0.8665424999776405,
+  "accepted_optimizer_statuses": {
+    "0": 880
+  },
+  "max_qp_constraint_violation": 8.881784197001252e-16,
+  "audit": {
+    "terminal_coordinate_matrix": [
+      [
+        0.0,
+        1.160376886001079
+      ],
+      [
+        -2.741022904707224,
+        -1.121008520088791
+      ]
+    ],
+    "terminal_radius": 0.9010540751965276,
+    "terminal_contraction_rows": [
+      0.9261856739071237,
+      0.9261856739071237
+    ],
+    "terminal_invariance_slack_min": 0.058634323192930826,
+    "terminal_state_slack_min": 1.684781269639457,
+    "terminal_input_slack_min": 1.1861329151627444,
+    "cross_section_slack_min": -5.551115123125783e-17,
+    "failed_scalar_cross_section_inequalities": 0,
+    "edge_pairs": 4,
+    "verified_edge_pairs": 4,
+    "all_terminal_conditions_checked": true,
+    "template_sections": [
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.005701951212933745,
+          0.008956841533731963
+        ],
+        [
+          0.022348638553750102,
+          0.026977873179498884
+        ],
+        [
+          0.04003707295876343,
+          0.04279422867900538
+        ],
+        [
+          0.0541775862694711,
+          0.058146086384014195
+        ],
+        [
+          0.0633682535540323,
+          0.07332886285689849
+        ],
+        [
+          0.0680661701622027,
+          0.08495330928140767
+        ],
+        [
+          0.07010678903361675,
+          0.09219905004014761
+        ],
+        [
+          0.07148285826650731,
+          0.0956729730026351
+        ],
+        [
+          0.07277058984216829,
+          0.09713233865687916
+        ],
+        [
+          0.07413297791771065,
+          0.09834265778354301
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.01493037003944834,
+          0.019922111813472348
+        ],
+        [
+          0.03348946717840259,
+          0.03720582569233237
+        ],
+        [
+          0.04954940631847893,
+          0.05162883084742315
+        ],
+        [
+          0.06072596006953808,
+          0.06785587188774153
+        ],
+        [
+          0.0669870737556843,
+          0.08123742218260865
+        ],
+        [
+          0.06944288462710033,
+          0.0901818250955071
+        ],
+        [
+          0.07103509504403435,
+          0.09493723167836081
+        ],
+        [
+          0.07220268983042465,
+          0.09658261918166215
+        ],
+        [
+          0.0736252693553038,
+          0.09792373861133583
+        ],
+        [
+          0.07487155957073488,
+          0.09900824967471684
+        ]
+      ]
+    ],
+    "context_thresholds": [
+      5.303361714536852,
+      5.440963453435217
+    ],
+    "common_scale": 5.440963453435217,
+    "confidence_per_chart": 0.0005,
+    "risk_targets": [
+      0.004,
+      0.004
+    ],
+    "construction": "compatibility_first"
+  },
+  "Gamma": 1.0,
+  "test_rates": [
+    0.0025,
+    0.0031625
+  ],
+  "worst_context_test_pct": 0.31625
+}
